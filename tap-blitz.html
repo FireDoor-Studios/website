@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tap Blitz — FireDoor Interactive</title>
+<meta name="description" content="Tap Blitz is a fast, minimalist reaction game for Android. Three modes, one simple rule. Free on Google Play.">
+<style>
+  :root {
+    --bg: #0f1115;
+    --fg: #f2f2f0;
+    --muted: #9aa0aa;
+    --accent: #ff5a3c;
+    --card: #171a21;
+    --border: #262a33;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 20px 40px; }
+  a { color: var(--accent); }
+  h1 { font-size: 2.1rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+  .tagline { color: var(--muted); margin: 0 0 28px; font-size: 1.05rem; }
+  .cta {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 22px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  .cta:hover { filter: brightness(1.1); }
+  .note { color: var(--muted); font-size: 0.85rem; margin: 0 0 44px; }
+  h2 {
+    font-size: 1.05rem;
+    margin: 0 0 12px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+  }
+  .modes { display: grid; gap: 16px; margin-bottom: 44px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+  }
+  .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+  .card p { margin: 0; color: #d7d9dd; font-size: 0.95rem; }
+  ul { margin: 0 0 44px; padding-left: 20px; color: #d7d9dd; }
+  li { margin-bottom: 6px; }
+  p.body { color: #d7d9dd; margin: 0 0 44px; }
+  footer {
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+    color: var(--muted);
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Tap Blitz</h1>
+    <p class="tagline">A square appears. You tap it. It gets hard quickly.</p>
+    <a class="cta" href="https://play.google.com/store/apps/details?id=com.firedoorstudios.tap">Get it on Google Play</a>
+    <p class="note">Free for Android. Supported by ads, no purchases.</p>
+
+    <section>
+      <h2>Three modes</h2>
+      <div class="modes">
+        <div class="card">
+          <h3>Classic</h3>
+          <p>The square shrinks the moment it appears. Tap it before it vanishes and the next one comes smaller and faster. One miss ends the run.</p>
+        </div>
+        <div class="card">
+          <h3>Time</h3>
+          <p>Sixty seconds to tap as many squares as you can. The square waits for you, so it is pure speed. Tapping empty space costs 2 seconds.</p>
+        </div>
+        <div class="card">
+          <h3>100</h3>
+          <p>Tap 100 squares as fast as you can. The clock counts up, a miss adds 2 seconds, and your best time is saved.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Simple and quick</h2>
+      <ul>
+        <li>Short runs that fit into a spare minute.</li>
+        <li>Your best result in every mode is saved on your device.</li>
+        <li>Optional haptics and sound, each with its own switch in Settings.</li>
+        <li>No account or sign-in, and it plays without an internet connection.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Feedback</h2>
+      <p class="body">Questions, bugs, or ideas? Write to <a href="mailto:dev@firedoorstudios.com">dev@firedoorstudios.com</a>.</p>
+    </section>
+
+    <footer>
+      <span>&copy; 2026 FireDoor Studios LLC &middot; FireDoor Interactive</span>
+      <span><a href="/">Home</a> &middot; <a href="/privacy.html">Privacy Policy</a></span>
+    </footer>
+  </div>
+</body>
+</html>
